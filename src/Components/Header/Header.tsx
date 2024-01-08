@@ -1,11 +1,8 @@
 {/* IMPORTS */}
-import './styles.sass';
+import './sass/style.sass'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets//Design_a_logo_for_my_personal_portfolio_as_a_Web-PhotoRoom.png-PhotoRoom (1).png';
-
-
-
 
 import {
     Collapse,
@@ -34,20 +31,19 @@ export default function Header (){
     return (
         <nav>
             {/* Navbar HEADER */}
-            <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
-
-                <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
+        <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
+        <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
             
             {/* abir a Navbar */}
         <NavbarToggler onClick={toggle}/>
-            <Collapse isOpen={isOpen} navbar>
+        <Collapse isOpen={isOpen} navbar>
 
             {/* Dados NavBar */}
-            <Nav>
+          <Nav className='nav'>
             <NavItem>
               <NavLink href="/">
                 HOME
-            </NavLink>
+              </NavLink>
             </NavItem>
 
             <NavItem>
@@ -64,11 +60,13 @@ export default function Header (){
 
             <NavItem>
               <NavLink href="/contato">
-                CONTATO
+                <div>
+                  CONTATO
+                </div>
               </NavLink>
-                </NavItem>
-            </Nav>
+            </NavItem>
 
+            </Nav>
             <NavbarText>
                 <div className='socials'>
                     <Link to='https://www.instagram.com/guisilvvaa/?next=%2F' target='_blank'><BsInstagram/></Link>
