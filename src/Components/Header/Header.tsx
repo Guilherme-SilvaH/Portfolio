@@ -30,11 +30,13 @@ export default function Header (){
 
     return (
         <nav>
+           
+         
             {/* Navbar HEADER */}
-          <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
-          <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
+            <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
+            <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
                   {/* abir a Navbar */}
-            <NavbarToggler onClick={toggle}/>
+              <NavbarToggler onClick={toggle}/>
               <Collapse isOpen={isOpen} navbar>
                 {/* Dados NavBar */}
               <Nav>
@@ -56,9 +58,7 @@ export default function Header (){
                 </NavItem>
                 <NavItem>
                   <NavLink href="/contato">
-                    <div>
                       CONTATO
-                    </div>
                   </NavLink>
                 </NavItem>
                 </Nav>
