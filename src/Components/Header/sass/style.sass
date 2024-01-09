@@ -1,40 +1,44 @@
+@use 'variables'
+@use 'mixins'    
+
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap")
 
 
-* 
-  font-family: 'Josefin Sans'
-  padding: 0
-  margin: 0
-  box-sizing: border-box
 
-.img-logo
-    width: 130px
-    position: absolute
-    margin-top: -10px
-    margin-left: -400px
-
-.nav
+nav
+    align-items: center
     justify-content: center
     display: flex
 
-.nav-item
-    width: 140px
-    text-align: center
-    list-style: none
-
-
-.socials
-    justify-content: space-between
-    display: flex
-    position: absolute
-    margin-top: -20px
-    margin-left: 200px
-    font-size: 22px
-
-.nav-link
-    color: #3487ff
-    font-weight: 700
-
     
+    
+    .img-logo
+        position: absolute
+        margin-top: -50px
+        margin-left: -400px
+        width: 160px
+
+
+    .nav-item
+        color: white
+        width: 140px 
+
+        .nav-link
+            color: #fff
+            font-weight: normal
+
+
+
+    .socials
+        justify-content: space-between
+        display: flex
+        position: absolute
+        margin-top: -20px
+        margin-left: 200px
+        width: 180px
+        font-size: 22px
+
+
+
 
 
