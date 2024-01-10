@@ -64,11 +64,11 @@ export default function Header (){
               </Nav>
               <NavbarText>
                   <div className='socials'>
-                    <Link to='https://www.instagram.com/guisilvvaa/?next=%2F' target='_blank'><BsInstagram/></Link>
                     <Link to='https://github.com/Guilherme-SilvaH' target='_blank'><BsGithub/></Link>
                     <Link to='https://www.linkedin.com/in/guilherme-silva-5a39b51b2/' target='_blank'><BsLinkedin/></Link>
-                    <Link to='mailto:guidevsilva@gmail.com' target='_blank'><MdOutlineEmail/></Link>
                     <Link to='' target='_blank'><BsWhatsapp/></Link>
+                    <Link to='mailto:guidevsilva@gmail.com' target='_blank'><MdOutlineEmail/></Link>
+                   
                   </div>
               </NavbarText>
 
