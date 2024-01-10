@@ -32,49 +32,49 @@ export default function Header (){
         <nav>
            
          
-            {/* Navbar HEADER */}
-            <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
+          {/* Navbar HEADER */}
+          <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
             <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
-                  {/* abir a Navbar */}
-              <NavbarToggler onClick={toggle}/>
-              <Collapse isOpen={isOpen} navbar>
-                {/* Dados NavBar */}
-              <Nav>
-                
-                <NavItem>
-                  <NavLink href="/">
-                    HOME
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/sobre-mim">
-                    SOBRE MIM
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/projetos">
-                    PROJETOS
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/contato">
-                      CONTATO
-                  </NavLink>
-                </NavItem>
-                </Nav>
-                <NavbarText>
-                    <div className='socials'>
-                        <Link to='https://www.instagram.com/guisilvvaa/?next=%2F' target='_blank'><BsInstagram/></Link>
-                        <Link to='https://github.com/Guilherme-SilvaH' target='_blank'><BsGithub/></Link>
-                        <Link to='https://www.linkedin.com/in/guilherme-silva-5a39b51b2/' target='_blank'><BsLinkedin/></Link>
-                        <Link to='mailto:guidevsilva@gmail.com' target='_blank'><MdOutlineEmail/></Link>
-                        <Link to='' target='_blank'><BsWhatsapp/></Link>
-                    </div>
-                </NavbarText>
+                {/* abir a Navbar */}
+            <NavbarToggler onClick={toggle}/>
+            <Collapse isOpen={isOpen} navbar>
+              {/* Dados NavBar */}
+            <Nav>
 
-                  </Collapse>
+              <NavItem>
+                <NavLink href="/">
+                  HOME
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/sobre-mim">
+                  SOBRE MIM
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/projetos">
+                  PROJETOS
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/contato">
+                    CONTATO
+                </NavLink>
+              </NavItem>
+              </Nav>
+              <NavbarText>
+                  <div className='socials'>
+                    <Link to='https://www.instagram.com/guisilvvaa/?next=%2F' target='_blank'><BsInstagram/></Link>
+                    <Link to='https://github.com/Guilherme-SilvaH' target='_blank'><BsGithub/></Link>
+                    <Link to='https://www.linkedin.com/in/guilherme-silva-5a39b51b2/' target='_blank'><BsLinkedin/></Link>
+                    <Link to='mailto:guidevsilva@gmail.com' target='_blank'><MdOutlineEmail/></Link>
+                    <Link to='' target='_blank'><BsWhatsapp/></Link>
+                  </div>
+              </NavbarText>
+
+                </Collapse>
               </Navbar>
-              </nav>
+            </nav>
     )     
 }     
 
