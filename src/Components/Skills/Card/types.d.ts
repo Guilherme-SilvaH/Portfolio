@@ -1,5 +1,10 @@
-import { Card } from './Card';
-import { CardType } from './types';
-
-export { Card };
-export type { CardType };
+export interface CardType {
+    title: string;
+    content: string;
+    link?: string;
+    image?: {
+      url: string;
+      alt: string;
+    };
+   
+  }

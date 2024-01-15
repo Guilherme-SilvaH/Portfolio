@@ -1,32 +1,16 @@
-// Import Swiper React components
-import { Slider, SliderProps, Slide } from "./Slider/Index";
+
+import { Box, Center,} from '@chakra-ui/react'
+import { CardSlider} from "../carrousels/CardCarrousel";
+import { cards_carrousel } from "./Slider/components-mock.json";
 
 
 
 export default function Skills() {
-    const settings: SliderProps = {
-        spaceBetween: 50,
-        slidesPerView: 3,
-        navigation: true,
-        pagination: {
-            clickable: true,
-        }
-    }
-
     return (
-       <Slider settings={settings}>
-            <Slide>
-                <h1>Teste 1</h1>
-            </Slide>
-            <Slide>
-                <h1>Teste 2</h1>
-            </Slide>
-            <Slide>
-                <h1>Teste 3</h1>
-            </Slide>
-            <Slide>
-                <h1>Teste 4</h1>
-            </Slide>
-       </Slider>
+        <Center>
+            <Box maxW='1280px'>
+                {cards_carrousel && <CardSlider cards={cards_carrousel}/>}
+            </Box>
+        </Center>
     );
   };

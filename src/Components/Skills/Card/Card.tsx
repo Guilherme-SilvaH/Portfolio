@@ -1,19 +1,16 @@
 import { Flex, Heading, Image, Text, VStack } from '@chakra-ui/react';
-import { formatDate } from '@helpers/prismic/utils';
-import { customScrollbar } from '@/styles/utils';
-import { CardType } from './types.d';
+import { customScrollbar } from '../../../styles/utils'
+import { CardType} from './types.d';
 
 interface CardProps {
   card: CardType;
 }
 
 export function Card({ card }: CardProps) {
-  const { title, content, image, publishDate, link } = card;
-
-  const date = publishDate ? formatDate(publishDate) : '';
+  const { title, content, image,} = card;
 
   return (
-    <a href={`posts/${link}`}>
+
       <Flex
         direction="column"
         maxW="450px"
@@ -44,13 +41,12 @@ export function Card({ card }: CardProps) {
           w="100%"
           overflow="auto"
         >
-          {date && <Text variant="subtitle">{date}</Text>}
+
           <Heading fontSize={['md', '2xl', '2xl', '2xl']}>{title}</Heading>
           <Text overflowY="auto" css={customScrollbar}>
             {content}
           </Text>
         </VStack>
       </Flex>
-    </a>
   );
 }
