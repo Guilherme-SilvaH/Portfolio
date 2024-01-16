@@ -10,7 +10,7 @@ export function Card({ card }: CardProps) {
   const { title, content, image,} = card;
 
   return (
-
+   
       <Flex
         direction="column"
         maxW="450px"
@@ -48,5 +48,6 @@ export function Card({ card }: CardProps) {
           </Text>
         </VStack>
       </Flex>
+    
   );
 }

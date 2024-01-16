@@ -30,8 +30,6 @@ export default function Header (){
 
     return (
         <nav>
-           
-         
           {/* Navbar HEADER */}
           <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
             <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
@@ -40,7 +38,6 @@ export default function Header (){
             <Collapse isOpen={isOpen} navbar>
               {/* Dados NavBar */}
             <Nav>
-
               <NavItem>
                 <NavLink href="/">
                   HOME
@@ -74,7 +71,7 @@ export default function Header (){
 
                 </Collapse>
               </Navbar>
-            </nav>
+          </nav>
     )     
 }     
 
