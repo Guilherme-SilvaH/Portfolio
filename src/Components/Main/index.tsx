@@ -17,12 +17,10 @@ export default function Main() {
                 <Col id='col-1'>
                     <h1>Olá!</h1>
                     <p>Eu sou o <span>Guilherme</span></p>
-                    <p>Desenvolvedor Web</p>
+                    <p><span>Desenvolvedor   </span>Web</p>
 
                     <div className='info'>
-                        <a target='_blanck' href='/' className='contact'>
-                            <IoLogoWhatsapp/> Contatar
-                        </a>
+                       
                         <a download='curriculo.pdf' href={curriculo} className='contact'>
                         <FaDownload/> Baixar CV
                         </a>
