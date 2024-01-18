@@ -1,10 +1,9 @@
 import './style.sass'
 import curriculo from '../../assets/Guilherme Dev - 2024.pdf'
-
-import { IoLogoWhatsapp } from 'react-icons/io' 
 import { FaDownload } from 'react-icons/fa'
 import { Col, Row } from 'reactstrap'
 import im from '../../assets/Programming-amico.svg'
+
 
 
 
@@ -20,9 +19,11 @@ export default function Main() {
                     <p><span>Desenvolvedor   </span>Web</p>
 
                     <div className='info'>
-                       
                         <a download='curriculo.pdf' href={curriculo} className='contact'>
                         <FaDownload/> Baixar CV
+                        </a>
+                        <a href="#archor" className='contact'>
+                            Habilidades
                         </a>
                     </div>
                 </Col>

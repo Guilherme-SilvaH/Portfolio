@@ -40,22 +40,22 @@ export default function Header (){
             <Nav>
               <NavItem>
                 <NavLink href="/">
-                  HOME
+                  <a className='active'>HOME</a>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/sobre-mim">
-                  SOBRE MIM
+                  <a>SOBRE</a>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/projetos">
-                  PROJETOS
+                  <a>PROJETOS</a>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/contato">
-                    CONTATO
+                    <a>CONTATO</a>
                 </NavLink>
               </NavItem>
               </Nav>

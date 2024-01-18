@@ -3,50 +3,74 @@
   "cards_carrousel": [
     {
       "title": "REACT",
-      "content": "Card como componente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus",
+      "content": "React é uma biblioteca JavaScript criada pelo Facebook em 2011 para desenvolvimento de aplicações front-end. É baseada em componentes, o que permite o reaproveitamento de código e facilita a manutenção. A biblioteca é declarativa, eficiente e flexível. O React é amplamente utilizado no feed de notícias do Facebook e em outras redes sociais do grupo, como o Instagram. Ele é usado para construir interfaces de usuário (UI) e oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites. Através do React, é possível criar aplicações Front-end web do tipo SPAs (Single Page Application)",
       "image": {
         "url": "https://miro.medium.com/max/3840/1*5KV3Z7P6b8K8YXs6_DgaSQ.jpeg",
-        "alt": "Imagem de Ondas"
+        "alt": "Imagem do Logo REACT"
       }
     },
     {
         "title": "TYPESCRIPT",
-        "content": "Card como componente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus",
+        "content": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft que é uma extensão do JavaScript. Ela adiciona recursos avançados ao JavaScript, como a tipagem estática e interfaces, tornando mais fácil detectar e prevenir erros durante a fase de desenvolvimento. O TypeScript é amplamente utilizado em projetos que envolvem desenvolvimento web ou aplicativos em geral. Ele é uma extensão do JavaScript e adiciona recursos de tipagem estática e outros recursos de programação orientada a objetos ao JavaScript. O TypeScript é compilado para JavaScript padrão, o que significa que pode ser executado em qualquer ambiente que suporte JavaScript",
         "image": {
           "url": "https://cdn.thenewstack.io/media/2022/01/10b88c68-typescript-logo.png",
-          "alt": "Imagem de Ondas"
+          "alt": "Imagem do Logo TYPESCRIPT"
         }
       },
       {
         "title": "SASS",
-        "content": "Card como componente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus",
+        "content": "Sass é um pré-processador de CSS que permite escrever estilos usando uma sintaxe mais fácil e intuitiva, além de adicionar recursos que não estão presentes no CSS puro. Ao escrever em Sass, você pode utilizar variáveis, mixins, funções, aninhamento de seletores, importação de arquivos e outras funcionalidades que facilitam o trabalho com CSS",
         "image": {
           "url": "https://images.t3n.de/news/wp-content/uploads/2015/09/Bildschirmfoto-2015-09-04-um-10.18.45.jpg?class=hero",
-          "alt": "Imagem de Ondas"
+          "alt": "Imagem do Logo SASS"
         }
       },
       {
-        "title": "NODE",
-        "content": "Card como componente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus",
+        "title": "NODE.JS",
+        "content": "Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador. Com ele, é possível criar praticamente qualquer tipo de aplicações web, desde servidores para sites estáticos e dinâmicos, até APIs e sistemas baseados em microserviços.",
         "image": {
           "url": "https://th.bing.com/th/id/OIP.oScemLmbnW2z41ldSX45KQHaEB?rs=1&pid=ImgDetMain",
-          "alt": "Imagem de Ondas"
+          "alt": "Imagem do Logo NODE"
         }
       },
       {
         "title": "POSTGRESQL",
-        "content": "Card como componente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus",
+        "content": "PostgreSQL é um sistema de gerenciamento de banco de dados relacionais de código aberto. Ele permite a implementação da linguagem SQL em estruturas, garantindo um trabalho com os padrões desse tipo de ordenação dos dados. O PostgreSQL é uma ferramenta que atua como sistema de gerenciamento de bancos de dados relacionados. Seu foco é permitir implementação da linguagem SQL em estruturas, garantindo um trabalho com os padrões desse tipo de ordenação dos dados. O PostgreSQL é uma ferramenta de fácil instalação e de uso prático, proporcionando uma série de vantagens, especialmente com o uso de extensões. Ele pode ser essencial na criação e no gerenciamento de aplicações, como sites e apps. Quando estão em funcionamento, as estruturas dessas aplicações precisam realizar consultas constantes ao banco de dados, para então carregar informações importantes. Paralelamente, usuários que fazem manutenções também precisam ter um acesso rápido, seguro e facilitado a esses dados. Com o PostgreSQL, essa rotina se torna mais prática",
         "image": {
           "url": "https://th.bing.com/th/id/OIP.Pdx5revNRD1BF9lmEIkzlAHaEK?w=480&h=270&rs=1&pid=ImgDetMain",
-          "alt": "Imagem de Ondas"
+          "alt": "Imagem do Logo POSTGRESQL"
         }
       },
       {
         "title": "NPM",
-        "content": "Card como componente. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dictum mi, euismod congue mi. Nunc porttitor accumsan ante nec accumsan. Sed a tellus nec urna pellentesque lacinia nec nec ex. Phasellus pharetra ac quam mattis dignissim. Nam a feugiat dolor. Maecenas vulputate urna ac augue tempor, imperdiet sollicitudin nisi tincidunt. Donec in risus et felis tempus",
+        "content": "O npm é o Gerenciador de Pacotes do Node (Node Package Manager) que vem junto com ele e que é muito útil no desenvolvimento Node. Ele é um repositório amplamente usado para a publicação de projetos Node.js de código aberto (open-source) . O npm é uma ferramenta de linha de comando que ajuda a interagir com plataformas online, como navegadores e servidores. Essa utilidade auxilia na instalação e desinstalação de pacotes, gerenciamento da versões e gerenciamento de dependências necessárias para executar um projeto",
         "image": {
-          "url": "https://www.codemotion.com/magazine/wp-content/uploads/2019/08/npm_logo.jpg",
-          "alt": "Imagem de Ondas"
+          "url": "https://images.ctfassets.net/s600jj41gsex/73Ay6sAygYK8Yzyf2i5z0j/e8ec8c9f403a22f0388820da22222c81/npm_guide.png?w=768&q=50&fit=scale",
+          "alt": "Imagem do Logo NPM"
+        }
+      },
+      {
+        "title": "GIT",
+        "content": "Git é um sistema de controle de versão distribuído e de código aberto, criado em 2005 por Linus Torvalds, o criador do kernel do sistema operacional Linux. Ele é amplamente utilizado em projetos de software de código aberto e comerciais. O Git permite que os desenvolvedores rastreiem, gerenciem e colaborem em projetos de forma eficiente, com controle de versão distribuído de arquivos que residem em repositórios",
+        "image": {
+          "url": "https://repository-images.githubusercontent.com/195373656/c5907400-9f96-11e9-9297-099cecb075ca",
+          "alt": "Imagem do Logo GIT"
+        }
+      },
+      {
+        "title": "JAVASCRIPT",
+        "content": "JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web. Ela é usada para criar conteúdo dinâmico, controlar multimídias, imagens animadas e muito mais. Em outras palavras, o JavaScript é uma linguagem de programação que permite que você crie páginas web interativas e dinâmicas. Ele é executado no lado do cliente, o que significa que é executado no navegador do usuário, em vez de no servidor da web.",
+        "image": {
+          "url": "https://www.mobindustry.net/wp-content/uploads/480px-Unofficial_JavaScript_logo_2.jpg",
+          "alt": "Imagem do Logo JAVASCRIPT"
+        }
+      },
+      {
+        "title": "API",
+        "content": "API REST é uma interface de programação de aplicações que segue as restrições da arquitetura REST. A arquitetura REST usa o protocolo HTTP para transferir dados entre o cliente e o servidor. API REST permite que o usuário se conecte e interaja com aplicações em nuvens, como Google, Amazon, LinkedIn e Twitter. API REST é uma forma de integrar dados armazenados em uma plataforma com outras aplicações",
+        "image": {
+          "url": "https://ik.imagekit.io/10ajc1hfesq/wp-content/uploads/2020/10/climbax-api.jpg",
+          "alt": "Imagem do Logo API"
         }
       }
   ]
