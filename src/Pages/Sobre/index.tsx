@@ -3,7 +3,7 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import { SiGooglemaps } from 'react-icons/si'
 import "./Style.sass"
-import img from "../../assets/log-edit.png"
+import img from "../../assets/logo-new3.jpg"
 
 export default function About (){
     return(
