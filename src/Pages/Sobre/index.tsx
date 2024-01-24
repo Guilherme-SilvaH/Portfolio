@@ -16,7 +16,7 @@ export default function About (){
                     <Col id="col-1-ab">
                         <div className="div-city-ab">
                             <h4> <SiGooglemaps/>
-                                Paulinia - <span className="span-ab">São Paulo</span></h4>
+                                Paulinia - <span className="span-ab"> São Paulo</span></h4>
                         </div>   
                        
                         <Col id='img-mobile-ab'><img src={img} alt='cover'/></Col> {/* Coluna para imagem responsiva */}
