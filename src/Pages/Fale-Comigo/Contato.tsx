@@ -23,8 +23,8 @@ export default function Contato() {
         setIsLoading(true);
     
         try {
-            // Adicionar dados ao Firestore
-            const docRef = await addDoc(collection(db, 'Form'), {
+            // Adicionar dados ao Firestore sem armazenar a referência do documento
+            await addDoc(collection(db, 'Form'), {
                 Name: name,
                 Email: email,
                 Message: message,
