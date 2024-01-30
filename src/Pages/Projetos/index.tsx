@@ -9,8 +9,6 @@ import "./Projeto.sass"
 import { Link } from "react-router-dom"
 import Modal from "../../Components/modal/Modal"
 import { useState } from "react"
-import { SiSass } from "react-icons/si"
-import { CardTitle } from "reactstrap"
 
 
 export default function Projetos(){
