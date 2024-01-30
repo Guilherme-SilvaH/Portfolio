@@ -24,6 +24,7 @@ interface ModalStyle {
   padding: string
   borderRadius: string
   color: string
+  
 }
 
 
@@ -43,8 +44,8 @@ const MODAL_STYLE: ModalStyle = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  backgroundColor: "#fff",
-  padding: "250px",
+  backgroundColor: "#eee4e4",
+  padding: "20px",
   borderRadius: "10px",
   color: "black"
 }

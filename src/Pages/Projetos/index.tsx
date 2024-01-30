@@ -9,6 +9,8 @@ import "./Projeto.sass"
 import { Link } from "react-router-dom"
 import Modal from "../../Components/modal/Modal"
 import { useState } from "react"
+import { SiSass } from "react-icons/si"
+import { CardTitle } from "reactstrap"
 
 
 export default function Projetos(){
@@ -35,7 +37,7 @@ export default function Projetos(){
                                         <Link to={""} target="_black"/>
                                             <BsLink45Deg/> Site
                                     </button>
-                                    
+
                                     <button className="button-github">
                                         <Link to={""} target="_black"/>
                                             <BsGithub/> GitHub
@@ -47,7 +49,44 @@ export default function Projetos(){
                                         Ler Mais
                                     </button>
                                     <Modal isOpen={openModalCard1} setModalOpen={() => setOpenModalCard1(!openModalCard1)}>
-                                            <p>Ola esse aqui é um modal</p>                            
+                                        <div className="inside-modal">
+                                            <h1>Gallery</h1>
+                                            <h2>Projeto de Aprendizado em SASS</h2>   
+                                            <p>O projeto Gallery foi concebido como uma plataforma de prática dedicada ao aprimoramento das 
+                                                habilidades em SASS (Syntactically Awesome Stylesheets) e ao aprofundamento prático no desenvolvimento web utilizando HTML. 
+                                                A iniciativa surgiu da necessidade de expandir o conhecimento e a proficiência nestas tecnologias, 
+                                                oferecendo uma aplicação real para consolidar os conceitos aprendidos.
+                                            </p>
+
+                                            <span>Objetivos do Projeto:</span>
+                                            <p>
+
+                                                Prática Intensiva em SASS: O foco principal do Gallery é proporcionar um ambiente de aprendizado centrado no uso e domínio do SASS. 
+                                                A linguagem de folha de estilo CSS pré-processada oferece recursos poderosos que visam tornar o desenvolvimento mais eficiente e modular.
+                                                Aprofundamento Prático em HTML: Além do SASS, o projeto também visa fortalecer as habilidades em HTML.
+                                                A combinação eficaz de SASS e HTML é crucial para a construção de interfaces web modernas e responsivas.
+                                                Recursos Destacados:
+                                                Estilização Avançada com SASS: Explore as capacidades avançadas do SASS, como variáveis, mixins, aninhamento e muito mais para criar estilos robustos e de fácil manutenção.
+                                                Layout Responsivo com HTML: Implementação de um layout responsivo utilizando as melhores práticas de HTML, 
+                                                garantindo uma experiência de usuário consistente em diferentes dispositivos.
+                                            </p>
+
+                                            <span>Tecnologias Utilizadas:</span>
+                                            <div className="div-tec-utils">
+                                               
+                                                <p>
+                                                    SASS
+
+                                                </p>
+                                                    
+                                                <p>
+                                                    HTML
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                        
                                     </Modal>
                                 </div>
                                        
