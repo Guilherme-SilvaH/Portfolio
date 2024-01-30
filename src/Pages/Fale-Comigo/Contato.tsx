@@ -11,6 +11,7 @@ export default function Contato() {
     const [message, setMessage] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [feedbackMessage, setFeedbackMessage] = useState("");
+    const [isFeedbackVisible, setIsFeedbackVisible] = useState(false);
    
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -32,6 +33,9 @@ export default function Contato() {
                 Message: message,
             });
 
+            setIsFeedbackVisible(true);
+            setFeedbackMessage('Formulário enviado com sucesso!');
+
             // Limpar o formulário após o envio
             setName("");
             setEmail("");
@@ -39,9 +43,13 @@ export default function Contato() {
 
             setIsLoading(false);
 
-            setFeedbackMessage('Formulário enviado com sucesso!');
-            
-            
+
+             // Esconder a mensagem de feedback após 3 segundos
+             setTimeout(() => {
+                setIsFeedbackVisible(false);
+            }, 2500);
+
+         
 
         } catch (error) {
             console.error('Erro ao enviar o formulário: ', error);
@@ -76,8 +84,9 @@ export default function Contato() {
                                 {isLoading ? 'Enviando...' : 'Enviar'}
                             </button>
 
+                            
                             {/* Exibir mensagem de feedback para o usuário */}
-                            {feedbackMessage && (
+                            {isFeedbackVisible && (
                                 <div className={feedbackMessage.includes('sucesso') ? 'success' : 'error'}>
                                     {feedbackMessage}
                                 </div>
