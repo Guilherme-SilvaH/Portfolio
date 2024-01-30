@@ -2,8 +2,8 @@ import { useState } from "react";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import { collection, addDoc } from 'firebase/firestore';
-import { db } from '../../Conect-db/firabesconection'
-import './Style-Contato.sass'
+import { db } from '../../Conect-db/firabesconection';
+import './Style-Contato.sass';
 
 export default function Contato() {
     const [name, setName] = useState("");
@@ -11,18 +11,19 @@ export default function Contato() {
     const [message, setMessage] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [feedbackMessage, setFeedbackMessage] = useState("");
-    
+   
+
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        
+
         // Verificar se os campos obrigatórios estão preenchidos
         if (!name || !email || !message) {
             setFeedbackMessage('Por favor, preencha todos os campos antes de enviar.');
             return;
         }
-    
+
         setIsLoading(true);
-    
+
         try {
             // Adicionar dados ao Firestore sem armazenar a referência do documento
             await addDoc(collection(db, 'Form'), {
@@ -30,19 +31,22 @@ export default function Contato() {
                 Email: email,
                 Message: message,
             });
-    
+
             // Limpar o formulário após o envio
             setName("");
             setEmail("");
             setMessage("");
-    
+
             setIsLoading(false);
-    
+
             setFeedbackMessage('Formulário enviado com sucesso!');
+            
+            
+
         } catch (error) {
             console.error('Erro ao enviar o formulário: ', error);
             setIsLoading(false);
-    
+
             // Exibir mensagem de erro para o usuário
             setFeedbackMessage('Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.');
         }
