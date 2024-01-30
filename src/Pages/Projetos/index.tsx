@@ -31,25 +31,27 @@ export default function Projetos(){
                                     <h1>Gallery</h1>
                                 </div>     
                                 <div className="links">
-                                        <button className="button-site">
-                                            <Link to={""} target="_black"/>
+                                    <button className="button-site">
+                                        <Link to={""} target="_black"/>
                                             <BsLink45Deg/> Site
-                                        </button>
-        
-                                        <button className="button-github">
-                                            <Link to={""} target="_black"/>
+                                    </button>
+                                    
+                                    <button className="button-github">
+                                        <Link to={""} target="_black"/>
                                             <BsGithub/> GitHub
-                                        </button>
-
-                                        <button className="modal-container" onClick={() => setOpenModalCard1(true)}>
-                                            Sobre
-                                        </button>
-                                        <Modal isOpen={openModalCard1} setModalOpen={() => setOpenModalCard1(!openModalCard1)}>
-                                                <p>Ola esse aqui é um modal</p>                            
-                                        </Modal>
-                                        
-                                       
+                                    </button>
                                 </div>
+
+                                <div className="div-modal">
+                                    <button className="btn-container-modal" onClick={() => setOpenModalCard1(true)}>
+                                        Ler Mais
+                                    </button>
+                                    <Modal isOpen={openModalCard1} setModalOpen={() => setOpenModalCard1(!openModalCard1)}>
+                                            <p>Ola esse aqui é um modal</p>                            
+                                    </Modal>
+                                </div>
+                                       
+                                
                         </div>
 
                     {/* Segundo Card*/}
@@ -62,24 +64,27 @@ export default function Projetos(){
                                 <div className="links">
                                         <button className="button-site">
                                             <Link to={""} target="_black"/>
-                                            <BsLink45Deg/> Site
+                                                <BsLink45Deg/> Site
+                                        
                                         </button>
         
                                         <button className="button-github">
                                             <Link to={""} target="_black"/>
-                                            <BsGithub/> GitHub
+                                                <BsGithub/> GitHub
+                                            
                                         </button>
-
-                                        
-                                        <button className="modal-container" onClick={() => setOpenModalCard2(true)}>
-                                            Sobre
-
-                                        </button>
-                                        <Modal isOpen={openModalCard2} setModalOpen={() => setOpenModalCard2(!openModalCard2)}>
-                                                <p>Ola esse aqui é um modal</p>                            
-                                        </Modal>
-                                        
                                 </div>
+                                        
+                                <div className="div-modal">
+                                    <button className="modal-container" onClick={() => setOpenModalCard2(true)}>
+                                        Ler Mais
+                                    </button>
+                                    <Modal isOpen={openModalCard2} setModalOpen={() => setOpenModalCard2(!openModalCard2)}>
+                                            <p>Ola esse aqui é um modal</p>                            
+                                    </Modal>
+                                </div>
+                                        
+                                
                         </div>
                     {/* Terceiro Card*/}
                         <div className="card-activated" id="card-3">
@@ -91,24 +96,25 @@ export default function Projetos(){
                                 <div className="links">
                                         <button className="button-site">
                                             <Link to={""} target="_black"/>
-                                            <BsLink45Deg/> Site
+                                                <BsLink45Deg/> Site
+                                            
                                         </button>
         
                                         <button className="button-github">
-                                            <Link to={""} target="_black"/>
-                                            <BsGithub/> GitHub
+                                            <Link className="" to={""} target="_black"/>
+                                                <BsGithub/> GitHub
+                                           
                                         </button>
-
-                                        
-                                        <button className="modal-container" onClick={() => setOpenModalCard3(true)}>
-                                            Sobre
-
-                                        </button>
-                                        <Modal isOpen={openModalCard3} setModalOpen={() => setOpenModalCard3(!openModalCard3)}>
-                                                <p>Ola esse aqui é um modal</p>                            
-                                        </Modal>
-                                        
                                 </div>
+
+                                <div className="div-modal">
+                                    <button className="modal-container" onClick={() => setOpenModalCard3(true)}>
+                                        Ler Mais
+                                    </button>
+                                    <Modal isOpen={openModalCard3} setModalOpen={() => setOpenModalCard3(!openModalCard3)}>
+                                            <p>Ola esse aqui é um modal</p>                            
+                                    </Modal>
+                                </div>   
                         </div>
                     {/* Quarto Card */}
                         <div className="card-activated" id="card-4">
@@ -117,27 +123,31 @@ export default function Projetos(){
                                     <h1>Crud</h1>
                                     
                                 </div>    
+
                                 <div className="links">
                                         <button className="button-site">
                                             <Link to={""} target="_black"/>
-                                            <BsLink45Deg/> Site
+                                                <BsLink45Deg/> Site
+                                            
                                         </button>
         
                                         <button className="button-github">
                                             <Link to={""} target="_black"/>
-                                            <BsGithub/> GitHub
+                                                <BsGithub/> GitHub
+                                           
                                         </button>
+                                </div>
 
-                                        
+                                <div className="div-modal">
                                         <button className="modal-container" onClick={() => setOpenModalCard4(true)}>
-                                            Sobre
+                                            Ler Mais
 
                                         </button>
                                         <Modal isOpen={openModalCard4} setModalOpen={() => setOpenModalCard4(!openModalCard4)}>
                                                 <p>Ola esse aqui é um modal</p>                            
                                         </Modal>
-                                        
-                                </div>
+                                </div>       
+                                
                         </div>
                         
 

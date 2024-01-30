@@ -57,7 +57,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, children, setModalOpen}) => {
           <div>
             {children}
           </div>
-          <button onClick={setModalOpen}>Fechar</button>
+          <button className="btn-fechar-modal" onClick={setModalOpen}>Fechar</button>
         </div>
       </div>
     );
