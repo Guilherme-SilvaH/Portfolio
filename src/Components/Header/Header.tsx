@@ -24,6 +24,8 @@ export default function Header() {
     <nav>
       {/* Navbar HEADER */}
       <Navbar color='none' dark={true} expand="lg" container="fluid" className='navbar-header'>
+
+
         <NavbarBrand href="/"><img src={logo} alt='1' className='img-logo'/></NavbarBrand>
         
         {/* Abrir a Navbar */}
@@ -33,16 +35,16 @@ export default function Header() {
           {/* Dados NavBar */}
           <Nav className='mr-auto' navbar>
             <NavItem>
-              <Link to="/" className='nav-link'>HOME</Link>
+              <Link to="/" >HOME</Link>
             </NavItem>
             <NavItem>
-              <Link to="/sobre-mim" className='nav-link'>SOBRE</Link>
+              <Link to="/sobre-mim" >SOBRE MIM </Link>
             </NavItem>
             <NavItem>
-              <Link to="/projetos" className='nav-link'>PROJETOS</Link>
+              <Link to="/projetos" >PROJETOS</Link>
             </NavItem>
             <NavItem>
-              <Link to="/fale-comigo" className='nav-link'>FALE COMIGO</Link>
+              <Link to="/fale-comigo" >FALE COMIGO</Link>
             </NavItem>
           </Nav>
 
