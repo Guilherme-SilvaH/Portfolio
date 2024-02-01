@@ -34,18 +34,28 @@ a
         gap: 100px
         
        
-       
-    
+
         .card-activated
             width: 500px
             text-align: center
             align-items: center
-            box-shadow: 5px 5px 20px #B08857
+            border: solid 
+            border-radius: 20px
             flex-direction: column
-            align-content: center
             justify-content: center
             display: flex
-            height: 380px
+            height: 390px
+            transition: transform 0.3s ease-in-out
+
+            &:hover
+                transform: scale(1.1)
+                box-shadow: 5px 5px 20px #B08857
+
+            &.modal-open
+                &:hover
+                    transform: none
+                    box-shadow: none
+
             
             
             .img-project
@@ -62,17 +72,30 @@ a
                 margin-top: 20px
                 font-size: 20px
                 
-               
                 
-
-                button
+                
+                .lk
+                    display: flex
+                    text-align: center
                     gap: 10px
                     align-items: center
-                    display: flex
+                    justify-content: center
+                    align-content: center
+                    
+            
+                    
+                button
+                    
                     border: 2px solid #B08857
-                    width: 130px
-                    height: 30px
+                    width: 120px
+                    height: 40px
                     border-radius: 10px
+                   
+
+                    &:hover
+                        background: white
+                        color: black
+
                    
 
             .div-modal
@@ -85,6 +108,8 @@ a
                 text-align: center
                 color: #fff
 
+
+
                 .btn-container-modal
                     gap: 10px
                     align-items: center
@@ -93,6 +118,12 @@ a
                     display: flex
                     width: 100px
                     border-radius: 10px
+                    transition: transform 0.3s ease-in-out
+
+                    &:hover
+                        transform: scale(1.1)
+
+                        
 
         .em-breve
             background: #c4c4c4

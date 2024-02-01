@@ -33,7 +33,7 @@ export default function Header() {
           {/* Dados NavBar */}
           <Nav className='mr-auto' navbar>
             <NavItem>
-              <Link to="/" className='nav-link active'>HOME</Link>
+              <Link to="/" className='nav-link'>HOME</Link>
             </NavItem>
             <NavItem>
               <Link to="/sobre-mim" className='nav-link'>SOBRE</Link>

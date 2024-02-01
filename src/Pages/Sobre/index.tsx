@@ -7,11 +7,11 @@ import img from "../../assets/logo-new3.jpg"
 
 export default function About (){
     return(
-        <main>
+        <main className="landing-page">
             
             <Header/>  {/* Componente Header */}
 
-            <Container>
+            <Container className="container-row">
                 <Row xs={2}>
                     <Col id="col-1-ab">
                         <div className="div-city-ab">
