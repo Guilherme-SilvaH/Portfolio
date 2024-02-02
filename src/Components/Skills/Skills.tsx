@@ -4,6 +4,7 @@ import { CardSlider} from "../carrousels/CardCarrousel";
 import { cards_carrousel } from "./Slider/components-mock.json";
 import seta from "../../assets/curved-white-arrow-png-0.png"
 import { useRef } from 'react';
+import './Skills.sass'
 
 
 
@@ -27,17 +28,7 @@ export default function Skills() {
                 </Box>
             </Center>
 
-            <div className='seta-subir' style={{ 
-                textAlign: 'center', 
-                justifyContent: "center", 
-                alignItems: "center", 
-                display:"flex", 
-                marginTop:"50px",
-                cursor: "pointer", // Adiciona um indicador de cursor para indicar que é clicável
-                transition: "transform 0.2s ease-in-out", // Adiciona uma transição suave ao clicar
-                transform: "scale(1)", // Inicia com escala normal
-                width: "100%"
-                }}
+            <div className='seta-subir' 
                 onMouseOver={() => {
                     if (setaSubirRef.current) {
                       setaSubirRef.current.style.transform = 'scale(1.2)';
