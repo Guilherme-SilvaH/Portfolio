@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import './ModaStyle.sass'
 
 interface ModalProps {
   isOpen: boolean;
@@ -15,18 +16,6 @@ interface BackgroundStyle{
   zIndex: number;
 }
 
-interface ModalStyle {
-  position: 'fixed';
-  top: string;
-  left: string;
-  transform: string;
-  backgroundColor: string;
-  padding: string
-  borderRadius: string
-  color: string
-  
-}
-
 
 
 const BACKGROUND_STYLE: BackgroundStyle ={
@@ -39,22 +28,13 @@ const BACKGROUND_STYLE: BackgroundStyle ={
   zIndex: 1000, 
 }
 
-const MODAL_STYLE: ModalStyle = {
-  position: "fixed",
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  backgroundColor: "#eee4e4",
-  padding: "20px",
-  borderRadius: "10px",
-  color: "black"
-}
+
 
 const Modal: React.FC<ModalProps> = ({ isOpen, children, setModalOpen}) => {
   if (isOpen) {
     return (
       <div style={BACKGROUND_STYLE}>
-        <div style={MODAL_STYLE}>
+        <div className="Modal-Style-Div">
           <div>
             {children}
           </div>

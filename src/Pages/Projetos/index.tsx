@@ -192,12 +192,16 @@ export default function Projetos(){
                                         Ler Mais
                                     </button>
                                     <Modal isOpen={openModalCard3} setModalOpen={() => setOpenModalCard3(!openModalCard3)}>
-                                    <div className="inside-modal">
+                                    <div className="inside-modal" id="inside-modal-port">
                                             <h1>Portfolio</h1>
                                             <h2>Portfólio Pessoal</h2>   
+
+                                       
                                             <p>Este projeto foi criado com o objetivo de me apresentar e destacar as habilidades que domino. O portfólio consiste em quatro páginas principais: Home, Sobre, Projetos e Fale Comigo.
                                             </p>
 
+                                        
+                                        <div className="responsivo-modal-inside-none">  
                                             <span>Objetivos do Projeto:</span>
                                             <p>
                                                 <span>Home:</span> Na página inicial, apresento uma breve introdução sobre mim e destaco minhas principais habilidades. Essa seção proporciona uma visão geral das tecnologias e competências que possuo.
@@ -210,9 +214,24 @@ export default function Projetos(){
                                             <p>
                                                 <span>Fale Comigo: </span> A página "Fale Comigo" oferece a possibilidade de os recrutadores ou clientes entrarem em contato comigo. Implementei um formulário conectado ao backend no Firebase para facilitar o envio de mensagens.
                                             </p>
+                                        </div> 
+
+                                        <div className="responsivo-modal-inside-on">
+                                            <span>Objetivos do Projeto:</span>
+                                            <p>
+                                                
+                                                O projeto tem como objetivos principais criar um site com quatro seções principais: Home, Sobre, Projetos e Fale Comigo. 
+                                                Na página inicial, o foco é uma breve introdução sobre o autor e suas habilidades. 
+                                                A seção "Sobre" oferece uma narrativa mais detalhada sobre a jornada do autor na tecnologia. 
+                                                A parte de "Projetos" destaca projetos realizados, incluindo detalhes sobre tecnologias, desafios e soluções. 
+                                                Por fim, a página "Fale Comigo" 
+                                                disponibiliza um formulário conectado ao backend no Firebase para facilitar o contato de recrutadores ou cliente
+
+                                            </p>
+                                        </div>
 
                                             <span>Tecnologias Utilizadas:</span>
-                                            <div className="div-tec-utils">
+                                            <div className="div-tec-utils" id="responsivo-div-tec-utils">
                                                
                                                 <p>
                                                     React
@@ -229,7 +248,7 @@ export default function Projetos(){
                                             </div>
 
                                             <span>Biblotecas Utilizadas:</span>
-                                            <div className="div-tec-utils">
+                                            <div className="div-tec-utils" id="responsivo-div-tec-utils">
                                                
                                                 <p>
                                                     Swiper
@@ -275,7 +294,7 @@ export default function Projetos(){
 
                                         </button>
                                         <Modal isOpen={openModalCard4} setModalOpen={() => setOpenModalCard4(!openModalCard4)}>
-                                        <div className="inside-modal">
+                                        <div className="inside-modal" >
                                             <h1>Crud</h1>
                                             <h2>Projeto de Interface Responsiva para Cadastro de Clientes com CRUD</h2>   
                                             <p>Um Projeto de Interface Responsiva para Cadastro de Clientes com CRUD (Create, Read, Update, Delete) 
