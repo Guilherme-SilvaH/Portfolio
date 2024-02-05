@@ -1,7 +1,7 @@
 import './style.sass'
 import curriculo from '../../assets/Guilherme Dev - 2024.pdf'
 import { FaDownload } from 'react-icons/fa'
-import { Col,Row } from 'reactstrap'
+import { Col,Container,Row } from 'reactstrap'
 import im from '../../assets/Programming-amico.svg'
 
 
@@ -11,9 +11,10 @@ import im from '../../assets/Programming-amico.svg'
 
 export default function Main() {
     return(
-        <main className='main'>
+        <main className='landing-page'>
+            <Container className="container-row">
                 <Row xs={2}>
-                    <Col id='col-1'>
+                    <Col id='col-1-ab'>
                         <h1>Olá!</h1>
                         <p>Eu sou o <span>Guilherme</span></p>
                         <p><span>Desenvolvedor   </span>Web</p>
@@ -28,11 +29,12 @@ export default function Main() {
                         </div>
                     </Col>
 
-                    <Col id='col-2'>
+                    <Col id='col-2-ab'>
 
                         <img src={im} alt='1'></img>
                     </Col>
                 </Row>
+            </Container>
         </main>
     )
 }
