@@ -297,7 +297,7 @@ export default function Projetos(){
 
                                         </button>
                                         <Modal isOpen={openModalCard4} setModalOpen={() => setOpenModalCard4(!openModalCard4)}>
-                                        <div className="inside-modal" >
+                                        <div className="inside-modal" id="crud-title-responsive">
                                             <h1>Crud</h1>
                                             <h2>Projeto de Interface Responsiva para Cadastro de Clientes com CRUD</h2>   
                                             <p>Um Projeto de Interface Responsiva para Cadastro de Clientes com CRUD (Create, Read, Update, Delete) 
