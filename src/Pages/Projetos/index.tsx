@@ -59,7 +59,7 @@ export default function Projetos(){
                                                 A iniciativa surgiu da necessidade de expandir o conhecimento e a proficiência nestas tecnologias, 
                                                 oferecendo uma aplicação real para consolidar os conceitos aprendidos.
                                             </p>
-
+                                        <div className="responsivo-modal-inside-none">  
                                             <span>Objetivos do Projeto:</span>
                                             <p>
 
@@ -72,7 +72,7 @@ export default function Projetos(){
                                                 Layout Responsivo com HTML: Implementação de um layout responsivo utilizando as melhores práticas de HTML, 
                                                 garantindo uma experiência de usuário consistente em diferentes dispositivos.
                                             </p>
-
+                                        </div>
                                             <span>Tecnologias Utilizadas:</span>
                                             <div className="div-tec-utils">
                                                
@@ -127,6 +127,8 @@ export default function Projetos(){
                                             <p>Projeto de Lista de Tarefas em React! Esta iniciativa foi criada com o intuito de oferecer uma experiência de usuário eficiente e agradável no gerenciamento diário de tarefas, utilizando a poderosa biblioteca JavaScript, React.
                                             </p>
 
+
+                                        <div className="responsivo-modal-inside-none">  
                                             <span>Objetivos do Projeto:</span>
                                             <p>
                                                 Criação de Tarefas: Adicione facilmente suas tarefas diárias, mantendo a simplicidade no processo.
@@ -141,6 +143,7 @@ export default function Projetos(){
                                                     
                                                 Pesquisa de Tarefas: Encontre rapidamente as tarefas desejadas através da funcionalidade de pesquisa.
                                             </p>
+                                        </div>
 
                                             <span>Tecnologias Utilizadas:</span>
                                             <div className="div-tec-utils">
@@ -302,7 +305,7 @@ export default function Projetos(){
                                                 como desktops, tablets e smartphones. O CRUD refere-se às operações básicas de manipulação 
                                                 de dados em um sistema: criar, ler, atualizar e excluir
                                             </p>
-
+                                        <div className="responsivo-modal-inside-none"> 
                                             <span>Objetivos do Projeto:</span>
                                             <p>
                                                 Este projeto tem como objetivo criar uma interface responsiva para o cadastro de clientes, 
@@ -312,9 +315,10 @@ export default function Projetos(){
                                                 consistente em diferentes dispositivos. Os clientes são armazenados localmente para garantir persistência das informações. 
                                                 O projeto visa simplificar o gerenciamento de clientes com uma abordagem intuitiva e eficiente
                                             </p>
+                                        </div>
 
                                             <span>Tecnologias Utilizadas:</span>
-                                            <div className="div-tec-utils">
+                                            <div className="div-tec-utils" id="responsivo-div-tec-utils-Crud" >
                                                
                                                 <p>
                                                     HTML e CSS
