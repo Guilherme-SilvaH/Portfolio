@@ -4,10 +4,9 @@
 
 
 nav
-    
     justify-content: center
     display: flex
-    height: 6vw
+   
               
     .nav-item
         width: 120px
@@ -15,6 +14,7 @@ nav
         justify-content: center
         align-content: center
         display: flex
+        height: 6vw
     
 
         a
@@ -58,7 +58,6 @@ nav
 // Desktop
 @media (min-width: 1024px) and (max-width: 1200px)
 
-
     nav
         height: 12vw
 
@@ -91,6 +90,51 @@ nav
             margin-left: -300px
             width: 150px
             font-size: 22px
+
+// Celulares
+@media (width <= 420px) and (height < 920px) 
+
+    nav
+        
+        .navbar-header
+            background-color: #000
+            width: 100vw
+
+
+            .mr-auto
+                width: 100vw
+                align-items: center
+                justify-content: center
+                height: 180px
+                gap: 20px
+
+
+            .img-logo
+                position: relative
+                margin: 0
+                align-items: center
+
+            .nav-item
+                .nav-link
+                    margin-left: -20px
+
+
+
+
+            .socials
+                margin: 0
+                position: relative
+                width: 100%
+                justify-content: center
+                gap: 20px
+                margin-top: 10px
+
+
+            div.collapse.show.navbar-collapse
+                height: 240px
+
+
+
       
 
 
