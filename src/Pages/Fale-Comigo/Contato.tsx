@@ -66,7 +66,7 @@ export default function Contato() {
             <div className="container-cantato">
                 <div className="style-form">
                     <h1 className="text-form-contato">Envie sua mensagem</h1>
-                    <form className="container form" onSubmit={handleSubmit}>
+                    <form className="container-form" onSubmit={handleSubmit}>
                         <div className="container-label">
                             <label className="label-form">Nome</label>
                             <input  className= "input-form" type='text' id="name" required placeholder='Seu nome'
