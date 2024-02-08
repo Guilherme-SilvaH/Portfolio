@@ -204,7 +204,7 @@ export default function Projetos(){
                                             </p>
 
                                         
-                                        <div className="responsivo-modal-inside-none">  
+                                        <div className="responsivo-modal-inside-none" id="responsivo-modal-inside-portifolio">  
                                             <span>Objetivos do Projeto:</span>
                                             <p>
                                                 <span>Home:</span> Na página inicial, apresento uma breve introdução sobre mim e destaco minhas principais habilidades. Essa seção proporciona uma visão geral das tecnologias e competências que possuo.
