@@ -1,6 +1,6 @@
-<p align="center">
-  <a>  🌐Bem-vindo ao repositório do meu Portfólio Pessoal! Este projeto foi criado com o objetivo de me apresentar e destacar as habilidades que domino.
-</p>
+
+## 🌐Bem-vindo ao repositório do meu Portfólio Pessoal! Este projeto foi criado com o objetivo de me apresentar e destacar as habilidades que domino.
+
 
 
 
