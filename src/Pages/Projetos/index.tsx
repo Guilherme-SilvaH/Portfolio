@@ -20,7 +20,7 @@ export default function Projetos(){
     
 
     return(
-        <main>
+        <main className="main-Project">
             <Header/>
                 <div className="projeto-container">
                     <div className="project"> {/* main-project*/}
@@ -59,7 +59,7 @@ export default function Projetos(){
                                                 A iniciativa surgiu da necessidade de expandir o conhecimento e a proficiência nestas tecnologias, 
                                                 oferecendo uma aplicação real para consolidar os conceitos aprendidos.
                                             </p>
-                                        <div className="responsivo-modal-inside-none">  
+                                        <div className="responsivo-modal-inside-none" id="responsivo-modal-inside-none-Gallery">  
                                             <span>Objetivos do Projeto:</span>
                                             <p>
 
@@ -74,7 +74,7 @@ export default function Projetos(){
                                             </p>
                                         </div>
                                             <span>Tecnologias Utilizadas:</span>
-                                            <div className="div-tec-utils">
+                                            <div className="div-tec-utils" >
                                                
                                                 <p>
                                                     SASS
@@ -146,7 +146,7 @@ export default function Projetos(){
                                         </div>
 
                                             <span>Tecnologias Utilizadas:</span>
-                                            <div className="div-tec-utils">
+                                            <div className="div-tec-utils" id="responsivo-div-tec-utils">
                                                
                                                 <p>
                                                     React
@@ -195,12 +195,12 @@ export default function Projetos(){
                                         Ler Mais
                                     </button>
                                     <Modal isOpen={openModalCard3} setModalOpen={() => setOpenModalCard3(!openModalCard3)}>
-                                    <div className="inside-modal" id="inside-modal-port">
+                                    <div className="inside-modal">
                                             <h1>Portfolio</h1>
-                                            <h2>Portfólio Pessoal</h2>   
+                                            <h2 className="inside-modal-port">Portfólio Pessoal</h2>   
 
                                        
-                                            <p>Este projeto foi criado com o objetivo de me apresentar e destacar as habilidades que domino. O portfólio consiste em quatro páginas principais: Home, Sobre, Projetos e Fale Comigo.
+                                            <p className="inside-modal-port">Este projeto foi criado com o objetivo de me apresentar e destacar as habilidades que domino. O portfólio consiste em quatro páginas principais: Home, Sobre, Projetos e Fale Comigo.
                                             </p>
 
                                         

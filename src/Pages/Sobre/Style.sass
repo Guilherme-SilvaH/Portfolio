@@ -10,10 +10,10 @@
 
 
 .container-row
-    margin-bottom: 87px
+    margin-bottom: 155px
 
     #col-1-ab
-        margin-top: 10%
+        margin-top: 5%
         max-width: 750px
     
 
@@ -39,8 +39,6 @@
 
         .col-conteudo-ab
 
-            width: 600px
-
             p
                 font-size: 18px
                 color: #fff
@@ -54,7 +52,7 @@
     #col-2-ab
         display: flex
         justify-content: center
-        margin-top: 7%
+        margin-top: 3%
         max-width: 750px
         
 
@@ -67,7 +65,7 @@
             height: 480px
             
 
-            $altura-final: 30px
+            $altura-final: 50px
 
             @keyframes flutuar
                0%
@@ -82,6 +80,7 @@
 
     .landing-page
         height: 152vh
+        
 
 
         .container-row
@@ -161,7 +160,7 @@
 
 
 // Celulares
-@media only screen and (max-width: 763px)
+@media (min-width: 320px) and (max-width: 480px)
     .landing-page
         height: 100%
 
@@ -203,83 +202,7 @@
 
                 .col-conteudo-ab
                     margin-top: 30px
-                    
-                    text-align: center
-                    justify-content: center
-                    align-content: center
-                    display: flex
-                    flex-wrap: wrap
-                    width: 95vw
-
-                    
-                
-                    p
-                        display: flex
-                        font-size: 20px
-                       
-
-                #img-mobile-ab
-                    display: flex
-                    justify-content: center
-                    padding: 10px
-
-                    img
-                        border-width: 2px
-                        border-style: solid
-                        border-radius: 50%
-                        height: 350px
-
-
-
-            #col-2-ab
-                display: none
-
-
-//Mini Tablets
-@media (min-width: 432px) and (max-width: 620px)
-
-    .landing-page
-        height: 100%
-
-        .container-row
     
-            text-align: center
-            display: flex
-            justify-content: center
-            align-content: center
-
-            #col-1-ab
-                width: 100vw
-                text-align: center
-                justify-content: center
-                align-content: center
-                
-
-                .div-name-ab
-                    display: flex
-                    align-content: center
-                    justify-content: center
-                    margin: 0
-
-                    h4
-                        font-size: 35px
-                        color: #B08857 
-                        margin: 20px 0
-                        display: flex
-                        font-weight: 700
-
-
-                .div-city-ab
-                    align-items: center
-                    justify-content: center
-                    align-content: center
-                    display: flex
-                    margin-top: -25px
-
-
-                .col-conteudo-ab
-                    margin-top: 30px
-                    
                     text-align: center
                     justify-content: center
                     align-content: center
@@ -312,7 +235,83 @@
 
 
 //Tablets
-@media (min-width: 621px) and (max-width: 1023px)
+@media (min-width: 481px) and (max-width: 768px)
+
+    .landing-page
+        height: 100%
+
+        .container-row
+    
+            text-align: center
+            display: flex
+            justify-content: center
+            align-content: center
+
+            #col-1-ab
+                width: 100vw
+                text-align: center
+                justify-content: center
+                align-content: center
+                
+
+                .div-name-ab
+                    display: flex
+                    align-content: center
+                    justify-content: center
+                    margin: 0
+
+                    h4
+                        font-size: 35px
+                        color: #B08857 
+                        margin: 20px 0
+                        display: flex
+                        font-weight: 700
+
+
+                .div-city-ab
+                    align-items: center
+                    justify-content: center
+                    align-content: center
+                    display: flex
+                    margin-top: -25px
+
+
+                .col-conteudo-ab
+                    margin-top: 30px
+                    
+                    text-align: center
+                    justify-content: center
+                    align-content: center
+                    display: flex
+                    flex-wrap: wrap
+                    width: 95vw
+
+                    
+                
+                    p
+                        display: flex
+                        font-size: 20px
+                       
+
+                #img-mobile-ab
+                    display: flex
+                    justify-content: center
+                    padding: 10px
+
+                    img
+                        border-width: 2px
+                        border-style: solid
+                        border-radius: 50%
+                        height: 350px
+
+
+
+            #col-2-ab
+                display: none
+
+
+//Laptop
+@media (min-width: 769px) and (max-width: 1023px)
     .landing-page
         height: 100%
 
@@ -362,7 +361,7 @@
                     align-content: center
                     display: flex
                     flex-wrap: wrap
-                    width: 90vw
+                    
 
                     
                 

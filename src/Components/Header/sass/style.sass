@@ -92,7 +92,7 @@ nav
             font-size: 22px
 
 // Celulares
-@media (width <= 763px) and (height < 940px) 
+@media (min-width: 320px) and (max-width: 480px)
 
     nav
         
@@ -137,7 +137,7 @@ nav
 
 
 //Tablets
-@media (min-width: 432px) and (max-width: 1023px)
+@media (min-width: 481px) and (max-width: 768px)
     nav
         
         .navbar-header
@@ -158,13 +158,13 @@ nav
                 margin: 0
                 align-items: center
                 margin-left: -20px
-                width: 230px
+                
 
             .nav-item
                 width: 300px
                 a
 
-                    font-size: 22px
+                    font-size: 17px
 
                 .nav-link
                     margin-left: -20px
@@ -179,16 +179,97 @@ nav
                 justify-content: center
                 gap: 30px
                 margin-top: 40px
-                font-size: 26px
+                font-size: 22px
 
 
             div.collapse.show.navbar-collapse
                 height: 260px
 
+//Laptops
+@media (min-width: 769px) and (max-width: 991px)
+    nav
+        
+        .navbar-header
+            background-color: #000
+            width: 100vw
+
+
+            .mr-auto
+
+                align-items: center
+                justify-content: center
+                height: 180px
+                gap: 20px
+
+
+            .img-logo
+                position: relative
+                margin: 0
+                align-items: center
+                margin-left: -20px
+                
+
+            .nav-item
+                width: 20vh
+                a
+
+                    font-size: 17px
+
+                .nav-link
+                    margin-left: -20px
+
+
+
+
+            .socials
+                margin: 0
+                position: relative
+                width: 100%
+                justify-content: center
+                gap: 30px
+                margin-top: 40px
+                font-size: 22px
+
+
+            div.collapse.show.navbar-collapse
+                height: 260px
+           
+
+      
+//Laptops Maiores
+@media (min-width: 992px) and (max-width: 1023px)
+    nav
+        height: 12vw
 
       
 
+        .mr-auto
+            width: 120vw
+            text-align: center
+            justify-content: center
+            align-content: center
 
+        .img-logo
+            margin-left: 120px
+            
+
+
+        .nav-item
+            width: 120px
+            display: flex
+            justify-content: center
+            align-content: center
+            align-items: center
+
+
+        .socials
+            justify-content: space-between
+            display: flex
+            position: absolute
+            margin-top: -13px
+            margin-left: -300px
+            width: 150px
+            font-size: 22px
 
 
 

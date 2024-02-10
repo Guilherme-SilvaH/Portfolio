@@ -38,15 +38,12 @@ footer
 // Desktop
 @media (min-width: 1024px) and (max-width: 1200px)
 
-
-
     footer
         margin-top: 0
 
 
 // celulares
-
-@media (width <= 763px) and (height < 920px)
+@media (min-width: 320) and (max-width: 480px) 
 
     footer
         flex-direction: column
@@ -61,19 +58,22 @@ footer
 
 
 //Tablets
-@media (min-width: 432px) and (max-width: 1023px)
+@media (min-width: 481px) and (max-width: 768px)
     footer
         flex-direction: column
         justify-content: center
-        height: 200px
+        height: 140px
         
     
         p
             margin-bottom: 0px
-            font-size: 40px
+            font-size: 28px
     
         .links-footer
-            font-size: 35px
+            font-size: 25px
+
+//Laptops
+@media (min-width: 769px) and (max-width: 1023px)
            
     
 
